@@ -1,0 +1,17 @@
+.custom-nav{
+    height: 70px !important;
+    
+}
+.custom-font-weight-logo{
+    font-family: 'Nunito', sans-serif;
+    font-weight: 700;
+    font-size: 28px;
+}
+.custom-font-weight{
+    font-family: 'Nunito', sans-serif;
+    font-weight: 700;
+    font-size:14px;
+}
+body{
+    height: 2000px;
+}
