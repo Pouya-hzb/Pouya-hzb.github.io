@@ -59,11 +59,11 @@
     font-family: 'Nunito', sans-seri;
 }
 .custome-link-about{
-    background-color: #dc965a;
+    background-color: #dc965a !important;
     width: 130px !important;
     height: 46px !important;
-    font-family: 'Nunito', sans-seri;
-    font-weight: 600;
+    font-family: 'Nunito', sans-seri !important;
+    font-weight: 600 !important;
 }
 body{
     height: 2000px;
