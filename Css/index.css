@@ -1,8 +1,10 @@
 .custom-nav{
     height: 70px !important;
     z-index: 10000px;
-    margin-top: 70px;
     
+}
+.custome-home{
+    margin-top: 70px;
 }
 
 .custom-font-weight-logo{
