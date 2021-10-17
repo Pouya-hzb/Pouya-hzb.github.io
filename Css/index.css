@@ -46,6 +46,11 @@
 .background-custom-about1{
     background-color: #dc965a;
 }
+.custome-link-about{
+    background-color: #dc965a;
+    width: 130px !important;
+    height: 46px !important;
+}
 body{
     height: 2000px;
 }
