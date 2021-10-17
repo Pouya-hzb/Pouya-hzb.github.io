@@ -46,10 +46,24 @@
 .background-custom-about1{
     background-color: #dc965a;
 }
+.custom-about-p1{
+    font-size: 20px;
+    color: #5e6472;
+    font-weight: 400;
+    font-family: 'Nunito', sans-seri;
+}
+.custom-about-p2{
+    font-size: 16px; 
+    color: #5e6472;
+    font-weight: 400;
+    font-family: 'Nunito', sans-seri;
+}
 .custome-link-about{
     background-color: #dc965a;
     width: 130px !important;
     height: 46px !important;
+    font-family: 'Nunito', sans-seri;
+    font-weight: 600;
 }
 body{
     height: 2000px;
