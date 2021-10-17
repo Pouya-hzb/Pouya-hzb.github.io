@@ -43,7 +43,9 @@
     font-weight: 600;
     font-family: 'Nunito', sans-seri
 }
-
+.background-custom-about1{
+    background-color: #dc965a;
+}
 body{
     height: 2000px;
 }
