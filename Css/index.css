@@ -38,7 +38,7 @@
     font-family: 'Nunito', sans-serif;
 }
 .custom-about-h31{
-    font-size: 18px;
+    
     font-weight: 600;
     font-family: 'Nunito', sans-seri;
 
@@ -89,7 +89,6 @@
 }
 .custom-h3-service::after{
     content: "";
-    position: absolute;
     width: 40px;
     height: 3px;
     background: #dc965a;
@@ -99,8 +98,8 @@
     margin: auto;
 }
 .bg-orange-service row p{
-    width: 635px;
-    height: 58px;
+    width: 635px !important;
+    height: 58px !important;
     color: #5e6472;
     font-family: "Nunito",monospac;
     line-height: 1.7;
