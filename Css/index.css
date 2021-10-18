@@ -99,6 +99,8 @@
     margin: auto;
 }
 .bg-orange-service row p{
+    width: 635px;
+    height: 58px;
     color: #5e6472;
     font-family: "Nunito",monospac;
     line-height: 1.7;
