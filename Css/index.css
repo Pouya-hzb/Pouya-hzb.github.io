@@ -107,6 +107,11 @@
     font-weight: 400;
 
 }
+.custom-icon-div-service{
+    width:350px;
+    height: 326px;
+    background-color: white;
+}
 .custom-icon-service{
     width: 50px;
     height: 50px;
@@ -116,6 +121,7 @@
     font-weight:600 ;
     font-family: "Nunito",monospac ;
 }
+
 
 body{
     height: 2000px;
