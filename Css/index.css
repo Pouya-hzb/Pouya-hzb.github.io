@@ -98,6 +98,14 @@
     bottom: 0;
     margin: auto;
 }
+.bg-orange-service row p{
+    color: #5e6472;
+    font-family: "Nunito",monospac;
+    line-height: 1.7;
+    font-size: 16px;
+    font-weight: 400;
+
+}
 
 body{
     height: 2000px;
