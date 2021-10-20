@@ -121,6 +121,42 @@
     font-weight:600 ;
     font-family: "Nunito",monospac ;
 }
+.bg-light-service{
+    padding: 100px 70px;
+}
+.custom-h4-service{
+    font-family: "Nunito",monospac ;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+.custom-div-service{
+    width: 350px;
+    height: 420px;
+    padding: 25px;
+    box-shadow: rgba(0,0,0,0.25) 0px 25px 50px -12px;
+}
+.bg-orang-second-service{
+    background-color: #dc965a;
+}
+.bg-yellow-second-service{
+    background-color: #fff5ec;
+}
+.custom-hr-service{
+    width: 30px;
+    height: 3px;   
+    background-color: #dc965a;
+    margin-bottom: 30px;
+}
+.custom-div-second-service{
+    width: 86px; ;
+    font-size: 12px;
+    height: 20px;
+    border-radius: 30px;
+    padding: 1px 12px;
+    color: white;
+    font-family: "Nunito",monospac;
+    font-weight: 400;
+}
 
 
 body{
