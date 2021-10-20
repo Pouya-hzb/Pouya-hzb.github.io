@@ -78,7 +78,7 @@
 }
 .bg-orange-service{
     background-color: #fff5ec;
-    padding:100px 80px;
+    padding:100px 70px;
 }
 .custom-h3-service{
     font-weight: 800;
@@ -111,6 +111,7 @@
     width:350px;
     height: 326px;
     background-color: white;
+    box-shadow: 0px 25px 50px -12px rgba(0,0,0,0.25);
 }
 .custom-icon-service{
     font-size: 50px;
