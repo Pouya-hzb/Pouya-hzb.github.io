@@ -92,10 +92,8 @@
     width: 40px;
     height: 3px;
     background: #dc965a;
-    left: 0;
-    right: 0;
-    bottom: 0;
     margin: auto;
+    display: block;
 }
 .bg-orange-service row p{
     width: 635px !important;
@@ -156,8 +154,36 @@
     color: white;
     font-family: "Nunito",monospac;
     font-weight: 400;
+    margin-bottom: 16px;
 }
-
+.custom-div-service h6{
+    font-weight: 600;
+    font-size: 18px;
+    color: #fff;
+    font-family: "Nunito",monospac;
+    margin-bottom: .5rem;
+}
+.custom-div-service p{
+    font-family: "Nunito",monospac;
+    line-height: 1.7;
+    font-size: 16px;
+    font-weight: 400;
+    color:rgba(255,255,255,0.8);
+}
+.custom-border-top-second-service{
+    border-top: 1px dashed rgba(255,255,255,0.2);
+    padding-top: 25px ;
+    margin-top: 20px;
+}
+.custom-progressbar-service{
+    width: 75%;
+    background-color: #dc965a;
+    height: 15px;
+    font-size: 10px;
+    font-family: "Nunito",monospac ;
+    font-weight: 600;
+}
+.
 
 body{
     height: 2000px;
