@@ -71,7 +71,6 @@
 }
 .custom-div-about{
     padding-left: 100px;
-    padding: ;
 }
 .custom-img-about{
     box-shadow: 0px 25px 50px -12px rgba(0,0,0,0.25) ;
@@ -89,8 +88,8 @@
 }
 .custom-h3-service::after{
     content: "";
-    width: 40px;
-    height: 3px;
+    width: 40px !important;
+    height: 3px !important;
     background: #dc965a;
     margin: auto;
     display: block;
@@ -106,8 +105,8 @@
 
 }
 .custom-icon-div-service{
-    width:350px;
-    height: 326px;
+    width:350px !important;
+    height: 326px !important;
     background-color: white;
     box-shadow: 0px 25px 50px -12px rgba(0,0,0,0.25);
 }
@@ -128,8 +127,8 @@
     margin-bottom: 15px;
 }
 .custom-div-service{
-    width: 350px;
-    height: 420px;
+    width: 350px !important;
+    height: 420px !important;
     padding: 25px;
     box-shadow: rgba(0,0,0,0.25) 0px 25px 50px -12px;
 }
@@ -140,13 +139,13 @@
     background-color: #fff5ec;
 }
 .custom-hr-service{
-    width: 30px;
-    height: 3px;   
+    width: 30px !important;
+    height: 3px !important;   
     background-color: #dc965a;
     margin-bottom: 30px;
 }
 .custom-div-second-service{
-    width: 86px; ;
+    width: 86px !important;
     font-size: 12px;
     height: 20px;
     border-radius: 30px;
@@ -183,8 +182,130 @@
     font-family: "Nunito",monospac ;
     font-weight: 600;
 }
-.
+.custom-a-portfolio{
+    color: black;
+    margin: 0px 11px;
+    font-size: 16px;
+    font-weight: 600;
+    font-family: "Nunito",monospac ;
+    text-decoration: none;
+}
+.custom-div-portfolio1{
+    width: 350px !important;
+    height: 420px !important;
+    background-image:url("../images/2.jpg") ;
+    background-position: center;
+    background-size: cover;
+    box-shadow: rgba(0,0,0,0.25) 0px 25px 50px -12px;
+}
+.custom-div-portfolio2{
+    width: 350px !important;
+    height: 420px !important;
+    background-image:url("../images/3.jpg") ;
+    background-position: center;
+    background-size: cover;
+    box-shadow: rgba(0,0,0,0.25) 0px 25px 50px -12px;
+}
+.custom-div-portfolio3{
+    width: 350px !important;
+    height: 420px !important;
+    background-image:url("../images/4.jpg") ;
+    background-position: center;
+    background-size: cover;
+    box-shadow: rgba(0,0,0,0.25) 0px 25px 50px -12px;
+}
+.custom-div-portfolio4{
+    width: 350px !important;
+    height: 420px !important;
+    background-image:url("../images/5.jpg") ;
+    background-position: center;
+    background-size: cover;
+    box-shadow: rgba(0,0,0,0.25) 0px 25px 50px -12px;
+}
+.custom-div-portfolio5{
+    width: 350px !important;
+    height: 420px !important;
+    background-image:url("../images/6.jpg") ;
+    background-position: center;
+    background-size: cover;
+    box-shadow: rgba(0,0,0,0.25) 0px 25px 50px -12px;
+}
+.custom-div-portfolio6{
+    width: 350px !important;
+    height: 420px !important;
+    background-image:url("../images/7.jpg") ;
+    background-position: center;
+    background-size: cover;
+    box-shadow: rgba(0,0,0,0.25) 0px 25px 50px -12px;
+}
+.custom-div-portfolio h5{
+    font-weight: 600;
+    font-family: "Nunito",monospac;
+    color: black;
+}
+.custom-div-portfolio p{
+    font-family: "Nunito",monospac;
+    line-height: 1.7;
+    font-size: 16px;
+    font-weight: 400;
+    color: #5e6472;
+}
+.custom-size-blog{
+    width: 350px !important;
+    height: 233px !important;
+}
+.blog1{
+    background-image: url(../images/8.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.blog2{
+    background-image: url(../images/9.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.blog3{
+    background-image: url(../images/10.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.custom-size-blog div{
+    background-color: white;
+    width: 77px !important;
+    height: 61px !important; 
+    padding: 8px 10px;
+}
+.p1-blog{
+    font-size: 25px ;
+    font-family:  "Nunito",monospac;
+    font-weight: 600 ;
+    margin-bottom:0px !important ;
+    height: 25px !important;
+}
+.p2-blog{
+    font-size: 16px;
+    font-weight: 400;
+    font-family:  "Nunito",monospac;
+    margin-top: 5px;
+    color: #5e6472;
 
-body{
-    height: 2000px;
+}
+.custom-size-blog2{
+    width: 330px !important;
+    height: 192px !important;
+    margin:-70px 2px 0px;
+    background-color: white;
+    padding: 20px ;
+    box-shadow: rgba(0,0,0,0.25) 0px 25px 50px -12px;
+
+}
+.custom-size-blog2 h6{
+    font-size: 18px;
+    font-weight: 600;
+    color: black;
+    text-decoration: none;
+
 }
