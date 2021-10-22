@@ -4,8 +4,17 @@
     
 }
 .custome-home{
+    color:white ;
     margin-top: 70px;
+    background-image: url(../images/11.jpg);
+    background-position: center;
+    background-size: cover;
+    
+    padding-top: 80px;
+    
+   
 }
+
 
 .custom-font-weight-logo{
     font-family: 'Nunito', sans-serif;
@@ -302,10 +311,19 @@
     box-shadow: rgba(0,0,0,0.25) 0px 25px 50px -12px;
 
 }
-.custom-size-blog2 h6{
+.custom-size-blog2 h6 a{
     font-size: 18px;
     font-weight: 600;
     color: black;
     text-decoration: none;
 
 }
+.custom-size-blog2 a{
+    color: #d58138;
+    font-family: "Nunito",monospac;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: 12px;
+    line-height: 1.7;
+    text-decoration: none;
+}   
