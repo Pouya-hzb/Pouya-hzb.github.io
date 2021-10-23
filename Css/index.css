@@ -9,9 +9,9 @@
     background-image: url(../images/11.jpg);
     background-position: center;
     background-size: cover;
-    
+    width: 1263px;
+    height: 515px;
     padding-top: 80px;
-    
    
 }
 
@@ -21,9 +21,6 @@
     font-weight: 700;
     font-size: 28px;
     color: black;
-}
-.nave-bg{
-    background-color: #dc965a;
 }
 .custom-font-weight{
     font-family: 'Nunito', sans-serif;
