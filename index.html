@@ -1,333 +1,535 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Pouya - Bootstrap 5 Personal Project</title>
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ"
-    crossorigin="anonymous"></script>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link
-    href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,800;1,900&display=swap"
-    rel="stylesheet">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-  <link rel="stylesheet" href="Css/index.css">
-
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SnappFood </title>
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="Css/index.css">
+    <link rel="icon" href="Images/13.png">
 </head>
-
 <body>
-  <nav class="navbar navbar-expand-lg navbar-light fixed-top py-0 bg-white custom-nav">
-    <div class="container-fluid bg-white px-5">
-      <a class="navbar-brand custom-font-weight-logo py-0 ps-4 " href="#">Pouya</a>
-      <button class="navbar-toggler  text-white" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon nav-bg"></span>
-      </button>
-      <div class="collapse navbar-collapse flex-lg-row-reverse pe-4  " id="navbarNav">
-        <ul class="navbar-nav ">
-          <li class="nav-item p-lg-3  border-start border-end border-1  custum-nav">
-            <a class="nav-link text-dark text-center custom-font-weight bg-white " aria-current="page"
-              href="#Home">HOME</a>
-          </li>
-          <li class="nav-item  p-3 border-end border-1  ">
-            <a class="nav-link text-dark text-center custom-font-weight bg-white" href="#About">ABOUT US</a>
-          </li>
-          <li class="nav-item  p-3 border-end border-1  ">
-            <a class="nav-link  text-dark text-center custom-font-weight bg-white" href="#Service">SERVICES</a>
-          </li>
+    
+        <header>
+            <div class="header">
+              <i class="fas fa-bars icon element"></i>
+            <div class="nav">
+                <ul>
+                  <li>پشتیبانی
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-chevron-left flesh-icon" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd" d="M11.354 1.646a.5.5 0 0 1 0 .708L5.707 8l5.647 5.646a.5.5 0 0 1-.708.708l-6-6a.5.5 0 0 1 0-.708l6-6a.5.5 0 0 1 .708 0z"/>
+                      </svg>
+                  </li>
+                  <div class="line"></div>
+                  <li>معرفی فروشگاه
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-chevron-left flesh-icon" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd" d="M11.354 1.646a.5.5 0 0 1 0 .708L5.707 8l5.647 5.646a.5.5 0 0 1-.708.708l-6-6a.5.5 0 0 1 0-.708l6-6a.5.5 0 0 1 .708 0z"/>
+                      </svg>
+                  </li>
+                  <div class="line"></div>
+                  <li> ثبت نام فروشندگان
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-chevron-left flesh-icon" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd" d="M11.354 1.646a.5.5 0 0 1 0 .708L5.707 8l5.647 5.646a.5.5 0 0 1-.708.708l-6-6a.5.5 0 0 1 0-.708l6-6a.5.5 0 0 1 .708 0z"/>
+                      </svg>
+                  </li>
+                  <div class="line"></div>
+                  <li> بسته های خدماتی
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-chevron-left flesh-icon" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd" d="M11.354 1.646a.5.5 0 0 1 0 .708L5.707 8l5.647 5.646a.5.5 0 0 1-.708.708l-6-6a.5.5 0 0 1 0-.708l6-6a.5.5 0 0 1 .708 0z"/>
+                      </svg>
+                  </li>
+                  <div class="line"></div>
+                </ul>
+            </div>
+              <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-cart2 element2" viewBox="0 0 16 16">
+                <path d="M0 2.5A.5.5 0 0 1 .5 2H2a.5.5 0 0 1 .485.379L2.89 4H14.5a.5.5 0 0 1 .485.621l-1.5 6A.5.5 0 0 1 13 11H4a.5.5 0 0 1-.485-.379L1.61 3H.5a.5.5 0 0 1-.5-.5zM3.14 5l1.25 5h8.22l1.25-5H3.14zM5 13a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0zm9-1a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0z"/>
+              </svg>
+            <div class="element3">
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illo repellendus, eveniet iste ab non debitis. Fugiat beatae quisquam iure. Accusantium ratione iste laborum architecto a commodi consequatur adipisci in quam.</p>
+            </div>
+            <div class="input-parent">
+                <input type="search" placeholder="جستوجو در اسنپ فود">
+            </div>
+        </div>
+    </header>
+    <div class="container-fluid body">
+        
+        <div class="row my-4">
+            <div class="col-6 ">
+                <a class=" text-decoration-none" href="#">
+                    <div class="card div-markets">
+                        <img src="Images/1.png" class="card-image-top first-div-images" alt="سوپرمارکت">
+                        <p class="text-end first-div-text px-2 text-white text-bold">سوپرمارکت</p>
+                    </div>
+                </a>
+            </div>
+            <div class="col-6 ">
+                <a class=" text-decoration-none" href="#">
+                    <div class="card div-resturants">
+                        <img src="Images/2.png" class="card-image-top first-div-images" alt="رستوران">
+                        <p class="text-end first-div-text px-2  text-white text-bold">رستوران</p>
+                    </div>
+                </a>
+            </div>
+        </div>
+        
 
-          <li class="nav-item p-3 border-end border-1 ">
-            <a class="nav-link text-dark text-center custom-font-weight bg-white" href="#Portfolio">PORTFLIO</a>
-          </li>
-          <li class="nav-item p-3 border-end border-1 ">
-            <a class="nav-link text-dark text-center custom-font-weight bg-white" href="#Blog">BLOG</a>
-          </li>
-          <li class="nav-item p-3 border-end border-1 ">
-            <a class="nav-link text-dark text-center custom-font-weight bg-white" href="#">CONTACT</a>
-          </li>
-
-        </ul>
-      </div>
+            <div class="row">
+                <div class="col-3">
+                    <a href="" class="text-decoration-none">
+                        <div class="div-fruit card  second-divs-bg-color">
+                            <img src="Images/3.png" class="div-fruits" alt="میوه">
+                            <div class="cart-body my-2">
+                                <h6 class="text-center text-dark  ">میوه</h6>
+                            </div>
+            
+                        </div>
+                    </a>
+                </div>
+                <div class="col-3">
+                    <a href="" class="text-decoration-none">
+                        <div class="div-fruit card  second-divs-bg-color">
+                            <img src="Images/4.png" class="div-bakery" alt="میوه">
+                            <div class="cart-body my-2">
+                                <h6 class="text-center text-dark  ">نانوایی</h6>
+                            </div>
+            
+                        </div>
+                    </a>
+                </div>
+                <div class="col-3">
+                    <a href="" class="text-decoration-none">
+                        <div class="div-fruit card  second-divs-bg-color">
+                            <img src="Images/5.png" class="div-cookie" alt="شیرینی">
+                            <div class="cart-body my-2">
+                                <h6 class="text-center text-dark  ">شیرینی</h6>
+                            </div>
+            
+                        </div>
+                    </a>
+                </div>
+                <div class="col-3">
+                    <a href="" class="text-decoration-none">
+                        <div class="div-fruit card  second-divs-bg-color">
+                            <img src="Images/6.png" class="div-cafe" alt="کافه">
+                            <div class="cart-body my-2">
+                                <h6 class="text-center text-dark  ">کافه</h6>
+                            </div>
+            
+                        </div>
+                    </a>
+                </div>
+            </div>
     </div>
-  </nav>
-  <div class="container-fluid custome-home" id="Home">
-    <div class="row">
-      <div class="col-4 text-white text-center ">
-        <h3 class="custom-h3">Hi There,I'm</h3>
-        <h1 class="display-1 custom-h1 ">Pouya Hosseinzadeh</h1>
-        <h2 class="display-6 custom-h2">Freelance Developer</h2>
-      </div>
-    </div>
-  </div>
+    <div class="countainer">
+            <div class="row">
+                <h2 class="text-end">دسته بندی</h2>
+            </div>
+            <div class="row flex-nowrap flex-row-reverse div-boxfood">
+                <div class="col-2 ">
+                    <a href="">
+                        <div class="card ">
+                            <img src="images/12.jpg" class="card-img" alt="ایرانی">
+                            <div class="card-img-overlay text-white text-center flex-row">
+                                <div class="card-title">
+                                    <h4>
+                                        ایرانی
+                                    </h4>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-2">
+                    <a href="">
+                        <div class="card ">
+                            <img src="images/14.jpg " class="card-img" alt="فست فود">
+                            <div class="card-img-overlay text-white text-center flex-row">
+                                <div class="card-title">
+                                    <h4>
+                                        فست فود
+                                    </h4>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-2">
+                    <a href="#">
+                        <div class="card ">
+                            <img src="images/15.jpg" class="card-img" alt="کباب">
+                            <div class="card-img-overlay text-white text-center flex-row">
+                                <div class="card-title">
+                                    <h4>
+                                        کباب 
+                                    </h4>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-2">
+                    <a href="">
+                        <div class="card ">
+                            <img src="images/16.jpg" class="card-img" alt="پیتزا">
+                            <div class="card-img-overlay text-white text-center flex-row">
+                                <div class="card-title">
+                                    <h4>
+                                        پیتزا
+                                    </h4>
+                                </div>
+                            </div>
+                        </div>
+                    </a>    
+                </div>
 
 
-  <div class="container-fluid" id="About">
-    <div class="row">
-      <div class="col-lg-4  ps-lg-5 py-lg-5 d-m-block background-custom-about1">
-        <img src="images/1.jpg" alt="" class="border border-5 border-white">
-      </div>
-      <div class="col-lg-8 bg-lg-info text-start">
-        <div class=" w-50 p-5  mx-auto my-auto custom-div-about">
-          <h3 class=" mx-auto custom-about-h31">Pouya Hz</h3>
-          <h5 class=" custome-about-h5">Freelance Designer</h5>
-          <p class="custom-about-p1"> I design and develop services for customers of all sizes, modern websites, web
-            services and online stores.
-          </p>
-          <p class=" custom-about-p2">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
-            incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
-            laboris nisi ut aliquip ex ea commodo consequat.</p>
-          <a class=" bg-black text-decoration-none custome-link-about d-block text-center pt-2 text-white"
-            href="#About">Contact Us</a>
+                <div class="col-2">
+                    <a href="">
+                        <div class="card ">
+                            <img src="images/17.jpg" class="card-img" alt="برگر">
+                            <div class="card-img-overlay text-white text-center flex-row">
+                                <div class="card-title">
+                                    <h4>
+                                        برگر
+                                    </h4>
+                                </div>
+                            </div>
+                        </div>
+                    </a>    
+                </div>
+                <div class="col-2">
+                    <a href="">
+                        <div class="card ">
+                            <img src="images/18.jpg" class="card-img" alt="ساندویچ">
+                            <div class="card-img-overlay text-white text-center flex-row">
+                                <div class="card-title">
+                                    <h4>
+                                        ساندویچ
+                                    </h4>
+                                </div>
+                            </div>
+                        </div>
+                    </a>    
+                </div>
+                <div class="col-2 ">
+                    <a href="">
+                        <div class="card ">
+                            <img src="images/19.jpg" class="card-img" alt="سوخاری">
+                            <div class="card-img-overlay text-white text-center flex-row">
+                                <div class="card-title">
+                                    <h4>
+                                         سوخاری
+                                    </h4>
+                                </div>
+                            </div>
+                        </div>
+                    </a>    
+                </div>
+                <div class="col-2">
+                    <a href="">
+                        <div class="card ">
+                            <img src="images/20.jpg" class="card-img" alt="پاستا">
+                            <div class="card-img-overlay text-white text-center flex-row">
+                                <div class="card-title">
+                                    <h4>
+                                        پاستا
+                                    </h4>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-2">
+                    <a href="">
+                        <div class="card ">
+                            <img src="images/21.jpg" class="card-img" alt="سالاد">
+                            <div class="card-img-overlay text-white text-center flex-row">
+                                <div class="card-title">
+                                    <h4>
+                                        سالاد
+                                    </h4>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-2">
+                    <a href="">
+                        <div class="card ">
+                            <img src="images/22.jpg" class="card-img" alt="دریایی">
+                            <div class="card-img-overlay text-white text-center flex-row">
+                                <div class="card-title">
+                                    <h4>
+                                        دریایی
+                                    </h4>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-2">
+                    <a href="">
+                        <div class="card ">
+                            <img src="images/23.jpg" class="card-img" alt="بین المللی">
+                            <div class="card-img-overlay text-white text-center flex-row">
+                                <div class="card-title">
+                                    <h4>
+                                        بین المللی
+                                    </h4>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-2">
+                    <a href="">
+                        <div class="card ">
+                            <img src="images/24.jpg" class="card-img" alt="ایرانی">
+                            <div class="card-img-overlay text-white text-center flex-row">
+                                <div class="card-title">
+                                    <h4>
+                                        گیلانی
+                                    </h4>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                
+
+                
+            </div>
+
+        </div>        
+        <div class="conteiner">
+            <div class="row">
+                <div class="col-12">
+                   <a href="#">
+                    <div class="card my-2">
+                        <img src="Images/7.png" alt="فود پارتی" class="card-img">
+                    </div>
+                   </a>    
+                </div>    
+                
+            </div>
         </div>
-      </div>
-    </div>
-  </div>
+        <div class="conteiner">
+            <div class="row">
+                <div class="col-12">
+                   <a href="#">
+                    <div class="card my-2">
+                        <img src="Images/8.png" alt="ویتامین سی" class="card-img">
+                    </div>
+                   </a>    
+                </div>    
+                
+            </div>
+        </div>
+        <div class="container-fluid">
+            <div class="row">
+                <h2 class="text-end">تازه ها در اسنپ فود</h2>
+            </div>
+            <div class="row flex-row-reverse flex-nowrap div-news-food">
+                <div class="col-3">
+                    <div class="card mx-6">
+                        <img src="images/25.jpg" class="card-img" alt="جرکی پایتخت">
+                        <div class="card-body text-end">
+                            <p class="card-title"></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-3 mx-6">
+                    <div class="card">
+                        <img src="images/26.jpg" class="card-img" alt="">
+                        <div class="card-body text-end">
+                            <p class="card-title"></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-3">
+                    <div class="card mx-6">
+                        <img src="images/27.jpg" class="card-img" alt="">
+                        <div class="card-body text-end">
+                            <h3 class="card-title"></h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-3">
+                    <div class="card mx-6">
+                        <img src="images/28.jpg" class="card-img" alt="">
+                        <div class="card-body text-end">
+                            <h3 class="card-title"></h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-3">
+                    <div class="card mx-6">
+                        <img src="images/29.jpg" class="card-img" alt="">
+                        <div class="card-body text-end">
+                            <h3 class="card-title"></h3>
+                            <p class="card-text">
+                                
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-3">
+                    <div class="card mx-6">
+                        <img src="images/30.jpeg" class="card-img" alt="">
+                        <div class="card-body text-end">
+                            <h3 class="card-title"></h3>
+                            <p class="card-text">
+                                
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="conteiner">
+            <div class="row">
+                <div class="col-12">
+                   <a href="#">
+                    <div class="card my-2">
+                        <img src="Images/9.png" alt="اسنپ فود" class="card-img">
+                    </div>
+                   </a>    
+
+                </div>    
+                
+            </div>
+        </div> 
+        <div class="container-fluid">
+            <div class="row">
+                <h2 class="text-end">عصرانه با اسنپ فود</h2>
+            </div>
+            <div class="row flex-row-reverse flex-nowrap div-news-food">
+                <div class="col-3">
+                    <div class="card mx-6">
+                        <img src="images/31.jpg" class="card-img" alt="">
+                        <div class="card-body text-end">
+                            <p class="card-title"></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-3 mx-6">
+                    <div class="card">
+                        <img src="images/32.jpeg" class="card-img" alt="">
+                        <div class="card-body text-end">
+                            <p class="card-title"></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-3">
+                    <div class="card mx-6">
+                        <img src="images/33.jpg" class="card-img" alt="">
+                        <div class="card-body text-end">
+                            <h3 class="card-title"></h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-3">
+                    <div class="card mx-6">
+                        <img src="images/34.jpg" class="card-img" alt="">
+                        <div class="card-body text-end">
+                            <h3 class="card-title"></h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-3">
+                    <div class="card mx-6">
+                        <img src="images/34.jpg" class="card-img" alt="">
+                        <div class="card-body text-end">
+                            <h3 class="card-title"></h3>
+                            <p class="card-text">
+                                
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-3">
+                    <div class="card mx-6">
+                        <img src="images/35.jpeg" class="card-img" alt="">
+                        <div class="card-body text-end">
+                            <h3 class="card-title"></h3>
+                            <p class="card-text">
+                                
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="conteiner">
+            <div class="row flex-row-reverse flex-nowrap">
+                <div class="col-12">
+                   <a href="#">
+                    <div class="card my-2">
+                        <img src="Images/10.png" alt="باگت" class="card-img">
+                    </div>
+                   </a>    
+                </div>    
+                
+            </div>
+        </div>
+        <div class="conteiner">
+            <div class="row">
+                <div class="col-12">
+                   <a href="#">
+                    <div class="card my-2">
+                        <img src="Images/11.png" alt="تخفیف ناهار ویژه کارکنان " class="card-img">
+                    </div>
+                   </a>    
+                </div>    
+                
+            </div>
+        </div>
+        <div class="container-fluid footer fixed-bottom bg-white">
+            <div class="row flex-row-reverse flex-nowrap">
+                <div class="col-4 text-center">
+                    <a href="#"  class="home">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-house" viewBox="0 0 16 16">
+                            <path fill-rule="evenodd" d="M2 13.5V7h1v6.5a.5.5 0 0 0 .5.5h9a.5.5 0 0 0 .5-.5V7h1v6.5a1.5 1.5 0 0 1-1.5 1.5h-9A1.5 1.5 0 0 1 2 13.5zm11-11V6l-2-2V2.5a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5z"/>
+                            <path fill-rule="evenodd" d="M7.293 1.5a1 1 0 0 1 1.414 0l6.647 6.646a.5.5 0 0 1-.708.708L8 2.207 1.354 8.854a.5.5 0 1 1-.708-.708L7.293 1.5z"/>
+                          </svg>
+                          <p>
+                              خانه
+                          </p>
+                    </a>
+                </div>
+                <div class="col-4 text-center">
+                    <a href="#">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-receipt" viewBox="0 0 16 16">
+                            <path d="M1.92.506a.5.5 0 0 1 .434.14L3 1.293l.646-.647a.5.5 0 0 1 .708 0L5 1.293l.646-.647a.5.5 0 0 1 .708 0L7 1.293l.646-.647a.5.5 0 0 1 .708 0L9 1.293l.646-.647a.5.5 0 0 1 .708 0l.646.647.646-.647a.5.5 0 0 1 .708 0l.646.647.646-.647a.5.5 0 0 1 .801.13l.5 1A.5.5 0 0 1 15 2v12a.5.5 0 0 1-.053.224l-.5 1a.5.5 0 0 1-.8.13L13 14.707l-.646.647a.5.5 0 0 1-.708 0L11 14.707l-.646.647a.5.5 0 0 1-.708 0L9 14.707l-.646.647a.5.5 0 0 1-.708 0L7 14.707l-.646.647a.5.5 0 0 1-.708 0L5 14.707l-.646.647a.5.5 0 0 1-.708 0L3 14.707l-.646.647a.5.5 0 0 1-.801-.13l-.5-1A.5.5 0 0 1 1 14V2a.5.5 0 0 1 .053-.224l.5-1a.5.5 0 0 1 .367-.27zm.217 1.338L2 2.118v11.764l.137.274.51-.51a.5.5 0 0 1 .707 0l.646.647.646-.646a.5.5 0 0 1 .708 0l.646.646.646-.646a.5.5 0 0 1 .708 0l.646.646.646-.646a.5.5 0 0 1 .708 0l.646.646.646-.646a.5.5 0 0 1 .708 0l.646.646.646-.646a.5.5 0 0 1 .708 0l.509.509.137-.274V2.118l-.137-.274-.51.51a.5.5 0 0 1-.707 0L12 1.707l-.646.647a.5.5 0 0 1-.708 0L10 1.707l-.646.647a.5.5 0 0 1-.708 0L8 1.707l-.646.647a.5.5 0 0 1-.708 0L6 1.707l-.646.647a.5.5 0 0 1-.708 0L4 1.707l-.646.647a.5.5 0 0 1-.708 0l-.509-.51z"/>
+                            <path d="M3 4.5a.5.5 0 0 1 .5-.5h6a.5.5 0 1 1 0 1h-6a.5.5 0 0 1-.5-.5zm0 2a.5.5 0 0 1 .5-.5h6a.5.5 0 1 1 0 1h-6a.5.5 0 0 1-.5-.5zm0 2a.5.5 0 0 1 .5-.5h6a.5.5 0 1 1 0 1h-6a.5.5 0 0 1-.5-.5zm0 2a.5.5 0 0 1 .5-.5h6a.5.5 0 0 1 0 1h-6a.5.5 0 0 1-.5-.5zm8-6a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 0 1h-1a.5.5 0 0 1-.5-.5zm0 2a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 0 1h-1a.5.5 0 0 1-.5-.5zm0 2a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 0 1h-1a.5.5 0 0 1-.5-.5zm0 2a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 0 1h-1a.5.5 0 0 1-.5-.5z"/>
+                          </svg>
+                          <p>
+                              سفارش ها
+                          </p>
+                    </a>
+                </div>
+                <div class="col-4 text-center">
+                    <a href="#">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-person" viewBox="0 0 16 16">
+                            <path d="M8 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm2-3a2 2 0 1 1-4 0 2 2 0 0 1 4 0zm4 8c0 1-1 1-1 1H3s-1 0-1-1 1-4 6-4 6 3 6 4zm-1-.004c-.001-.246-.154-.986-.832-1.664C11.516 10.68 10.289 10 8 10c-2.29 0-3.516.68-4.168 1.332-.678.678-.83 1.418-.832 1.664h10z"/>
+                          </svg>
+                          <p>
+                              حساب من
+                          </p>
+                    </a>
+                </div>
+            </div>
+        </div>          
+            
 
 
-  <div class="container-fluid bg-orange-service" id="Service">
-      <div class="row">
-        <div class="col-12 text-center mb-4">
-          <h3 class=" custom-h3-service"> My Services</h3>
-          <p>I design and develop services for customers of all sizes, specializing in creating stylish, modern websites,
-          web services and online stores.</p>
-        </div>
-      </div>  
-      <div class="row">
-        <div class="col-md-6 col-lg-4 my-3 mx-3 py-5 px-5 bg-white custom-icon-div-service">
-          <div>
-            <i class='fas fa-pencil-ruler pb-4 custom-icon-service'></i>
-            <h5 class="custom-h5-icon-service">Development</h5>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-          </div>
-        </div>
-        <div class="col-md-4 col-lg-3 my-3 mx-3  py-5 px-5 bg-white custom-icon-div-service">
-          <div>
-            <i class="material-icons pb-4 custom-icon-service">filter_b_and_w</i>
-            <h5 class="custom-h5-icon-service">Graphic</h5>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-          </div>
-        </div>
-        <div class="col-md-5 col-lg-3 my-3 mx-3  py-5 px-5 bg-white custom-icon-div-service">
-          <div>
-            <i class="material-icons pb-4 custom-icon-service">web</i>
-
-            <h5 class="custom-h5-icon-service">Web Design</h5>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-          </div>
-        </div>
-        <div class="col-md-6 col-lg-4 my-3 mx-3 py-5 px-5 bg-white custom-icon-div-service">
-          <div>
-            <i class="material-icons  pb-4 custom-icon-service">camera</i>
-            <h5 class="custom-h5-icon-service">Photography</h5>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-          </div>  
-        </div>
-       
-      <div class="col-md-5 col-lg-3 my-3 mx-3  py-5 px-5 bg-white custom-icon-div-service">
-        <div>
-          <i class="material-icons pb-4 custom-icon-service">dashboard</i>
-
-          <h5 class="custom-h5-icon-service">Web Design</h5>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-        </div>
-      </div>
-      <div class="col-md-5 col-lg-3 my-3 mx-3  py-5 px-5 bg-white custom-icon-div-service">
-        <div>
-          <i class="material-icons pb-4 custom-icon-service">devices</i>
-
-
-          <h5 class="custom-h5-icon-service">Mobile apps</h5>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-        </div>
-      </div>
-    </div>
-  </div>  
-  <div class="container-fluid bg-light-service">
-    <div class="row">
-      <div class="col-lg-4">
-        <h4 class="custom-h4-service">
-          Education
-        </h4>
-        <div class="custom-hr-service"></div>
-        <div class="custom-div-service bg-orang-second-service">
-          <div class=" bg-dark custom-div-second-service">2021-2022</div>
-          <h6>Graphic Designer</h6>
-          <p>International Design Institute</p>
-          <div class="custom-border-top-second-service">
-            <div class=" bg-dark custom-div-second-service">2021-2022</div>
-          <h6>Graphic Designer</h6>
-          <p>International Design Institute</p>
-          </div>
-          <div class="custom-border-top-second-service">
-            <div class=" bg-dark custom-div-second-service">2021-2022</div>
-          <h6>Graphic Designer</h6>
-          <p>International Design Institute</p>
-          </div>
-        </div>
-      </div>
-      <div class="col-lg-4">
-        <h4 class="custom-h4-service">
-          Experience
-        </h4>
-        <div class="custom-hr-service"></div>
-        <div class=" bg-dark custom-div-service">
-          <div class="bg-orang-second-service custom-div-second-service">2021-2022</div>
-          <h6>Graphic Designer</h6>
-          <p>International Design Institute</p>
-          <div class="custom-border-top-second-service">
-            <div class="bg-orang-second-service custom-div-second-service">2021-2022</div>
-          <h6>Graphic Designer</h6>
-          <p>International Design Institute</p>
-          </div>
-          <div class="custom-border-top-second-service">
-            <div class="bg-orang-second-service custom-div-second-service">2021-2022</div>
-          <h6>Graphic Designer</h6>
-          <p>International Design Institute</p>
-          </div>
-        </div>
-      </div>
-      <div class="col-lg-4">
-        <h4 class="custom-h4-service">
-          My Skills
-        </h4>
-        <div class="custom-hr-service"></div>
-        <div class="custom-div-service bg-yellow-second-service">
-          <h6 class="text-dark">
-            HTML5
-          </h6>
-          <div class="bg-dark mb-4">
-            <div class="progressbar custom-progressbar-service">75%</div>
-          </div>
-          <h6 class=" text-dark">
-            CSS3
-          </h6>
-          <div class="bg-dark mb-4">
-            <div class="progressbar custom-progressbar-service">75%</div>
-          </div>
-          <h6 class="text-dark">
-            BOOTSTRAP5.1
-          </h6>
-          <div class="bg-dark mb-4">
-            <div class="progressbar w-50 custom-progressbar-service ">50%</div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-  <div class="container-fluid  bg-orange-service" id="Portfolio">
-    <div class="row">
-      <div class="col-12 text-center mb-5">
-        <h3 class=" custom-h3-service">My Portfolio</h3>
-        <p>I design and develop services for customers of all sizes, specializing in creating stylish, modern websites,
-        web services and online stores.</p>
-      </div>
-    </div>
-    <div class="row mb-2">
-      <div class="col-12 text-center">
-        <a class="custom-a-portfolio" href="#">All</a>
-        <a class="custom-a-portfolio" href="#">Branding</a>
-        <a class="custom-a-portfolio" href="#">Photoshop</a>
-        <a class="custom-a-portfolio"  href="#">Photoshop</a>
-        <a class="custom-a-portfolio" href="#">Fashion</a>
-        <a class="custom-a-portfolio" href="#">Product</a>
-      </div>
-    </div>
-    <div class="row">
-      <div class="col-md-6 col-lg-4 my-3 mx-3 py-3 px-3 bg-white custom-div-portfolio custom-div-portfolio1">
-        <h5>Momb ios App</h5>
-        <p>Broadcasting ios App</p>
-      </div>
-      <div class="col-md-6 col-lg-4 my-3 mx-3 py-3 px-3 bg-white custom-div-portfolio custom-div-portfolio2">
-        <h5>Momb ios App</h5>
-        <p>Broadcasting ios App</p>
-      </div>
-      <div class="col-md-6 col-lg-4 my-3 mx-3 py-3 px-3 bg-white custom-div-portfolio custom-div-portfolio3">
-        <h5>Momb ios App</h5>
-        <p>Broadcasting ios App</p>
-      </div>
-      <div class="col-md-6 col-lg-4 my-3 mx-3 py-3 px-3 bg-white custom-div-portfolio custom-div-portfolio4">
-        <h5>Momb ios App</h5>
-        <p>Broadcasting ios App</p>
-      </div>
-      <div class="col-md-6 col-lg-4 my-3 mx-3 py-3 px-3 bg-white custom-div-portfolio custom-div-portfolio5">
-        <h5>Momb ios App</h5>
-        <p>Broadcasting ios App</p>
-      </div>
-      <div class="col-md-6 col-lg-4 my-3 mx-3 py-3 px-3 bg-white custom-div-portfolio custom-div-portfolio6">
-        <h5>Momb ios App</h5>
-        <p>Broadcasting ios App</p>
-      </div>
-    </div>
-
-  </div>
-  <div class="container-fluidg bg-orange-service" id="Blog">
-    <div class="row ">
-      <div class="col-12 text-center mb-5">
-        <h3 class=" custom-h3-service">Recent articles</h3>
-        <p>I design and develop services for customers of all sizes, specializing in creating stylish, modern websites,
-        web services and online stores.</p>
-      </div>
-    </div>
-    <div class="row">
-      <div class="col-md-6 col-lg-4 m-3 px-2 py-3 bg-dark custom-size-blog blog1">
-        <div class="text-center">
-          <p class="p1-blog">21</p>
-          <p class="p2-blog">oct</p>
-        </div>
-      </div>
-      <div class="col-md-6 col-lg-4 m-3 p-3 bg-dark custom-size-blog blog2">
-        <div class="text-center">
-          <p class="p1-blog">21</p>
-          <p class="p2-blog">oct</p>
-        </div>
-      </div>
-      <div class="col-md-6 col-lg-4 m-3 p-3 bg-dark custom-size-blog blog3">
-        <div class="text-center">
-          <p class="p1-blog">21</p>
-          <p class="p2-blog">oct</p>
-        </div>
-      </div> 
-      <div class="col-md-6 col-lg-4 p-4 ">
-        <div class="custom-size-blog2">
-          <h6>
-            <a href="#">Prevent 75% of visitors from google analytics</a>
-          </h6>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor... </p>
-          <a href="#">Read More</a>
-        </div>
-      </div>
-      <div class="col-md-6 col-lg-4 p-4 ">
-        <div class="custom-size-blog2">
-          <h6>
-            <a href="#">Prevent 75% of visitors from google analytics</a>
-          </h6>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor... </p>
-          <a href="#">Read More</a>
-        </div>
-      </div>
-      <div class="col-md-6 col-lg-4 p-4 ">
-        <div class="custom-size-blog2">
-          <h6>
-            <a href="#">Prevent 75% of visitors from google analytics</a>
-          </h6>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor... </p>
-          <a href="#">Read More</a>
-        </div>
-      </div>
-    </div>  
-    <div class="row">
-      
-    </div>
-  </div>
-
-
+    <script src="Js/Script.js"></script>
+    
 </body>
-
 </html>
